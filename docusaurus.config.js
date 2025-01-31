@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import tailwindPlugin from "./plugins/tailwind-config.cjs"; // add this
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -146,6 +147,8 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+    plugins: [tailwindPlugin], // update this
 };
 
 export default config;
