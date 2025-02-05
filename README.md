@@ -10,7 +10,7 @@ We believe in **open collaboration**! If you find something incorrect, notice a 
 ### How to Contribute:
 1. Fork this repository.
 2. Add your Markdown (`.md`) file inside the appropriate folder.
-3. Ensure your file includes the following frontmatter:
+3. Ensure your file includes the following frontmatter, for reference check the projects which are already curated by us:
    ```yaml
    ---
    sidebar_position: <your_position_here>
