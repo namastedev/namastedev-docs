@@ -13,7 +13,7 @@ We believe in **open collaboration**! If you find something incorrect, notice a 
 3. Ensure your file includes the following frontmatter:
    ```yaml
    ---
-   sidebar_position: 6
+   sidebar_position: <your_position_here>
    ---
    ```
 4. Create a PR, and we'll review it soon!
