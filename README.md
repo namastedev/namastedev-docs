@@ -1,41 +1,41 @@
-# Website
+# 📖 NamasteDev Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to **NamasteDev Docs**! 🎉
 
-### Installation
+This repository hosts the documentation content for various projects, which is published at [NamasteDev Docs](https://namastedev.com/docs).
 
-```
-$ yarn
-```
+## 🚀 Contributions Welcome!
+We believe in **open collaboration**! If you find something incorrect, notice a missing topic, or want to contribute your own project documentation, feel free to submit a **Pull Request (PR)**. 👏
 
-### Local Development
+### How to Contribute:
+1. Fork this repository.
+2. Add your Markdown (`.md`) file inside the appropriate folder.
+3. Ensure your file includes the following frontmatter:
+   ```yaml
+   ---
+   sidebar_position: 6
+   ---
+   ```
+4. Create a PR, and we'll review it soon!
 
-```
-$ yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 📂 Folder Structure
+Inside the `docs` folder, you'll find three main project categories:
 
-### Build
+- **advanced-projects/** 🚀 - For high-level, complex projects.
+- **beginner-level-projects/** 🌱 - For simple, easy-to-follow projects.
+- **intermediate-projects/** 🔥 - For moderately challenging projects.
 
-```
-$ yarn build
-```
+You can add your project’s documentation (`.md` file) in the most relevant category.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## ✅ Guidelines for Documentation
+- Use **clear and concise** language.
+- Include **step-by-step instructions** where possible.
+- If your project has a demo or repo, add relevant links.
+- Feel free to include images and code snippets for better understanding.
 
-### Deployment
+---
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Regards,  
+**Team NamasteDev** 🚀

@@ -26,9 +26,9 @@ function HomepageHeader() {
               <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div>Start your journey today and bring your ideas to life!</div></div>
           </div>
 
-          <button className='mt-6 bg-logo-orange hover:bg-logo-orange-clicked px-6 py-3 w-1/3 text-xl text-white rounded-md'>
+          <a href="/docs/category/beginner-projects" className='mt-6 bg-logo-orange hover:bg-logo-orange-clicked px-6 py-3 w-1/3 text-xl text-white rounded-md'>
             Get Started
-          </button>
+            </a>
         </div>
       </section>
 
@@ -81,7 +81,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
     </Layout>
