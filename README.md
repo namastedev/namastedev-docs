@@ -29,7 +29,7 @@ Inside the `docs` folder, you'll find three main project categories:
 
 You can add your project’s documentation (`.md` file) in the most relevant category.
 
-## Using Images in Contributions
+## 💡 Using Images in Contributions
 If you want to include images in your documentation, follow these steps:
 1. Place your images inside the `img` folder within your project category directory.
 2. Reference them in your Markdown file using the relative path:

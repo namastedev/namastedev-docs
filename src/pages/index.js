@@ -8,24 +8,25 @@ function HomepageHeader() {
   return (
     <div className="min-h-screen dark:bg-web-app-bg-dark text-gray-900">
 
-      <section className="mx-auto flex justify-center gap-20 items-center dark:text-white text-center py-10 px-4 w-[98%] lg:w-[90%] lg:mt-14 border border-brand-border-color rounded-lg">
-        <div>
-          <img src={HERO_SECTION_IMAGE} alt="hero-section-image" className='w-[28rem]' />
-        </div>
+      <section className="mx-auto flex justify-center gap-20 items-center dark:text-white text-center py-10 px-4 w-[98%] lg:w-[90%] mt-8 lg:mt-14 border border-brand-border-color rounded-lg">
+      <div className='hidden lg:block'>
+        <img src={HERO_SECTION_IMAGE} alt="hero-section-image" className='w-[28rem]' />
+      </div>
+
         <div className='flex flex-col gap-3'>
-          <div className='text-start text-2xl lg:text-4xl font-inter font-bold space-y-2 lg:space-y-3 dark:text-white'>
+          <div className='text-center lg:text-start text-2xl lg:text-4xl font-inter font-bold space-y-2 lg:space-y-3 dark:text-white'>
             <p>Build Real World </p>
             <p>Projects With </p>
             <p>Step-By-Step Guidance!</p>
           </div>
 
           <div className='mt-6 space-y-2 text-opacity-50 dark:text-white'>
-              <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div>Explore hands-on projects with clear, step-by-step instructions.</div></div>
-              <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div>Learn by building and enhance your development skills.</div></div>
-              <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div>Start your journey today and bring your ideas to life!</div></div>
+              <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div className='text-left'>Explore hands-on projects with clear, step-by-step instructions.</div></div>
+              <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div className='text-left'>Learn by building and enhance your development skills.</div></div>
+              <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div className='text-left'>Start your journey today and bring your ideas to life!</div></div>
           </div>
 
-          <a href="/docs/category/beginner-projects" className='mt-6 bg-logo-orange hover:bg-logo-orange-clicked px-6 py-3 w-1/3 text-xl text-white rounded-md'>
+          <a href="/docs/category/beginner-projects" className='mt-6 bg-logo-orange hover:bg-logo-orange-clicked px-6 py-3 w-1/3 text-xl text-white rounded-md mx-auto lg:mx-0'>
             Get Started
             </a>
         </div>
