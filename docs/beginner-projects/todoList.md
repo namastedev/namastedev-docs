@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Todo List
+# Todo List Pro
 
-## This is a simple todo-list project
+## Introduction
 A simple **Todo List** web app built using HTML, CSS, and JavaScript. This project allows users to add, delete, and mark tasks as completed.
 
 ## Features
@@ -32,12 +32,18 @@ A simple **Todo List** web app built using HTML, CSS, and JavaScript. This proje
 
 ## File Structure
 ```
-/todo-list
+/beginner-project
+├── img
+│   ├── namastedev.png
+├── todo-list-project.md
 ├── index.html
 ├── styles.css
 ├── script.js
 └── README.md
 ```
+
+## Project Preview
+![Project Preview](img/Namastedev-Logo.png)
 
 ## Code Implementation
 ### 1. HTML Structure
@@ -120,9 +126,3 @@ document.addEventListener("DOMContentLoaded", () => {
 2. Click the **Add Task** button to add it to the list.
 3. Click on a task to mark it as completed.
 4. Double-click a task to remove it.
-
-## Future Enhancements
-- Add LocalStorage support to save tasks.
-- Implement a delete button instead of double-clicking.
-- Add filters for active/completed tasks.
-
