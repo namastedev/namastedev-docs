@@ -43,7 +43,7 @@ A simple **Todo List** web app built using HTML, CSS, and JavaScript. This proje
 ```
 
 ## Project Preview
-![Project Preview](img/Namastedev-Logo.png)
+![Project Preview](img/namastedevLogo.png)
 
 ## Code Implementation
 ### 1. HTML Structure
