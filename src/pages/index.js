@@ -26,7 +26,7 @@ function HomepageHeader() {
               <div className='flex gap-2 items-center'><div><CircleCheckBig size={15} /></div><div className='text-left'>Start your journey today and bring your ideas to life!</div></div>
           </div>
 
-          <a href="/namastedev-projects/docs/category/beginner-projects" className='mt-6 bg-logo-orange hover:bg-logo-orange-clicked px-6 py-3 w-1/3 text-xl text-white rounded-md mx-auto lg:mx-0'>
+          <a href="/namastedev-docs/docs/category/beginner-projects" className='mt-6 bg-logo-orange hover:bg-logo-orange-clicked px-6 py-3 w-1/3 text-xl text-white rounded-md mx-auto lg:mx-0'>
             Get Started
             </a>
         </div>
