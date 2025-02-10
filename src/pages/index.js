@@ -27,7 +27,7 @@ function HomepageHeader() {
           </div>
 
           <a href="/namastedev-docs/docs/category/beginner-projects" className='mt-6 bg-logo-orange hover:bg-logo-orange-clicked px-6 py-3 w-1/3 text-xl text-white rounded-md mx-auto lg:mx-0'>
-            Get Started
+            Get Started 🚀
             </a>
         </div>
       </section>
